@@ -1,12 +1,14 @@
 import './App.css';
-import Nav from './Components/Nav';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import User from './UserController/User';
 
 function App() {
   return (
-    <>
-      <Nav/>
-    </>
+    <div className="" >
+      <div className='d-flex justify-content-center align-items-center mt-4'>
+      <User/>
+      </div>
+    </div>
   );
 }
 
